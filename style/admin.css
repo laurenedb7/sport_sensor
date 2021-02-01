@@ -1,0 +1,355 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fond de la page et écriture */
+
+html, body 
+{
+  height: 100%;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin:0px;
+    background-color: #f3f4f3;
+}
+
+img
+{
+  max-width:100%;
+  max-height: 100%;
+}
+
+.conteneur
+{
+    margin: 80px 40px 30px 40px;
+    text-align: justify;
+}
+
+/* Header */
+
+header
+{
+    background-color: #7ed957;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+#titre_principal
+{
+    color:black;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 10px;
+}
+
+#logo
+{
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+#logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+#titre
+{
+    display:flex;
+    flex-direction:column;
+    padding-left: 20px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    display: flex;
+    flex-direction:column;
+    margin:auto;
+    padding:auto;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: flex;
+    margin:auto;
+    padding:10px;
+}
+
+.infoAdmin
+{
+    display:inline-flex;
+    margin-right:30px;
+    align-items: center;
+}
+#photoAdmin
+{
+    display:flex;
+    margin:15px;
+    margin-right:30px;
+    border:1px solid black;
+    border-radius:50%;
+    width:140px;
+    height:140px;
+    justify-content: center;
+}
+#nomAdmin
+{
+    display:flex;
+    margin-right:50px;
+}
+#nomAdmin ul
+{
+    list-style: none;
+}
+#nom, #prénom
+{
+    color:black;
+    font-size:1.5em;
+}
+
+#admin
+{
+    color:black;
+    font-size:1em;
+}
+
+/* Footer */
+
+footer
+{
+    background-color: #7eda57;
+    display:flex;
+    width:100%;
+    position:absolute;
+}
+
+.copyright
+{
+    display:inline-flex;
+    margin:auto;
+}
+
+#Hi-Sport
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#infinite_measures
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#texte
+{
+    display:flex;
+    color:black;
+}
+
+#Hi-Sport, #infinite_measures, #texte
+{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.nous_contacter
+{
+    display:inline-flex;
+    margin:auto;
+    align-items: center;
+}
+
+#contact img
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#contact img:hover
+{
+    opacity:0.5;
+    width:35px;
+    height:35px;
+    border: 1.5px solid black;
+    border-radius:10px;
+    padding:5px;
+}
+
+#nouscontacter a
+{
+    display:flex;
+    color:black;
+    text-decoration:none;
+    margin:20px;
+}
+
+.nous_rencontrer
+{
+    display:inline-flex;
+    margin:auto;
+    align-items: center;
+}
+
+#localisation img
+{
+    display:flex;
+    width:50px;
+    height:50px;
+    display:flex;
+}
+
+#localisation img:hover
+{
+    opacity:0.5;
+    width:35px;
+    height:35px;
+    border: 1.5px solid black;
+    border-radius:10px;
+    padding:5px;
+}
+
+#nousrencontrer a
+{
+    display:inline-flex;
+    color:black;
+    text-decoration:none;
+    align-items:center;
+    padding:20px;
+}
+
+/* Menu */
+
+.menuAdmin a
+{
+    font-size: 1.3em;
+    background-color: #7ed957;
+    color: black;
+    text-decoration: none;
+    width:100%;
+    padding: 15px 32px;
+    text-align: center;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+.menuAdmin a:hover
+{
+    opacity:0.7;
+}
+
+#pageAdmin
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#capteurs
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#acces
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+
+#forum
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#pageAdmin, #capteurs, #acces, #forum
+{
+    display:inline-flex;
+    width:25%;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    position : relative ;
+}
+
+fieldset
+{
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  #7ed957;
+}
+
+legend
+{
+font-weight: bold;
+}
+
+label
+{
+width: 35%;
+display: inline-block;
+vertical-align: middle;
+margin: 6px;
+}
+
+
+input
+{
+    width: 170px;
+    padding: 4px;
+    border-radius: 40px;
+    border-style: none ;
+    background-color: #7ed957;
+    font-size:15px;
+    border: 1px solid black;
+}
+
+input:hover
+{
+    background-color: lightgray;
+}
+

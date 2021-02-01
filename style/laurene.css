@@ -1,0 +1,1139 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fond de la page et écriture */
+
+html, body 
+{
+  height: 100%;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin:0px;
+    background-color: #f3f4f3;
+}
+
+img
+{
+  max-width:100%;
+  max-height: 100%;
+}
+
+/* Header */
+
+header
+{
+    background-color: #7ed957;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+#titre_principal
+{
+    color:black;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding: 10px;
+}
+
+#logo
+{
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+#logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+#titre
+{
+    display:flex;
+    flex-direction:column;
+    padding-left: 20px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    display: flex;
+    flex-direction:column;
+    margin:auto;
+    padding:auto;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    display: flex;
+    margin:auto;
+    padding:10px;
+}
+
+.menu a
+{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    width:150px;
+    border: 1.5px solid white;
+    border-radius:10px 10px 10px 10px;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+#inscription, #connexion, #accueil
+{
+    display:inline-flex;
+    padding:10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#pageaccueil, #faq, #inscription
+{
+    display:inline-flex;
+    padding:10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.menu a:hover
+{
+    background-color: white;
+    opacity: 0.4;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Footer */
+
+footer
+{
+    background-color: #7eda57;
+    display:flex;
+    width:100%;
+    position:absolute;
+}
+
+.copyright
+{
+    display:inline-flex;
+    margin:auto;
+}
+
+#Hi-Sport
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#infinite_measures
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#texte
+{
+    display:flex;
+    color:black;
+}
+
+#Hi-Sport, #infinite_measures, #texte
+{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.nous_contacter
+{
+    display:inline-flex;
+    margin:auto;
+    align-items: center;
+}
+
+#contact img
+{
+    display:flex;
+    width:50px;
+    height:50px;
+}
+
+#contact img:hover
+{
+    opacity:0.5;
+    width:35px;
+    height:35px;
+    border: 1.5px solid black;
+    border-radius:10px;
+    padding:5px;
+}
+
+#nouscontacter a
+{
+    display:flex;
+    color:black;
+    text-decoration:none;
+    margin:20px;
+}
+
+.nous_rencontrer
+{
+    display:inline-flex;
+    margin:auto;
+    align-items: center;
+}
+
+#localisation img
+{
+    display:flex;
+    width:50px;
+    height:50px;
+    display:flex;
+}
+
+#localisation img:hover
+{
+    opacity:0.5;
+    width:35px;
+    height:35px;
+    border: 1.5px solid black;
+    border-radius:10px;
+    padding:5px;
+}
+
+#nousrencontrer a
+{
+    display:inline-flex;
+    color:black;
+    text-decoration:none;
+    align-items:center;
+    padding:20px;
+}
+
+/* Page de choix des tests */
+
+.infoCoach
+{
+	display:inline-flex;
+	margin-right:30px;
+	align-items: center;
+}
+#photoCoach
+{
+	display:flex;
+	margin:15px;
+	margin-right:30px;
+	border:1px solid black;
+	border-radius:50%;
+	width:140px;
+	height:140px;
+    justify-content: center;
+}
+#nomCoach
+{
+	display:flex;
+	margin-right:50px;
+}
+#nomCoach ul
+{
+	list-style: none;
+}
+#nom, #prénom
+{
+	color:black;
+	font-size:1.5em;
+}
+
+#coach
+{
+	color:black;
+	font-size:1em;
+}
+
+.menuCoach a
+{
+    font-size: 1.3em;
+    background-color: #7ed957;
+    color: black;
+    text-decoration: none;
+    width:100%;
+    padding: 15px 32px;
+    text-align: center;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+.menuCoach a:hover
+{
+    opacity:0.7;
+}
+
+#pageCoach
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#statistiqueJoueur
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#tests
+{
+    float: left;
+    margin: 0px 0px 10px 0px;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+#forum
+{
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#pageCoach, #statistiqueJoueur, #tests, #forum
+{
+    display:inline-flex;
+    width:25%;
+}
+
+.pageTests
+{
+	margin: 80px 40px 30px 40px;
+    text-align: justify;
+}
+
+.pageTests h1
+{
+	color:black;
+}
+
+.pageTests p
+{
+	color:#494949
+}
+
+select
+{
+	width:25%;
+	margin:10px;
+	font-size:1em;
+	border:none;
+	border-radius:10px;
+	background-color: white;
+}
+
+.envoie input 
+{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:black;
+    font-size:1em;
+    width : 30% ;
+    border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+    margin:auto;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.envoie input:hover
+{
+    background-color: black;
+    font-size:1.1em;
+    opacity: 0.4;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#choixsportifs
+{
+	color:#494949;
+}
+
+[type="checkbox"]:not(:checked), 
+[type="checkbox"]:checked {
+	position: absolute;
+	left: 0;
+	opacity: 0.01;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label 
+{
+	position:relative;
+	padding-left:40px;
+	cursor:pointer;
+	line-height:1.5;
+}
+[type="checkbox"]:not(:checked) + label::before,
+[type="checkbox"]:checked + label::before
+{
+	content:'';
+	position:absolute;
+	left:0;
+	top:0;
+	width:1em;
+	height:1em;
+	border:1px solid grey;
+	border-radius: 4px;
+	background:#ffffff;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition: all 0.275s;
+}
+[type="checkbox"]:not(:checked) + label::after,
+[type="checkbox"]:checked + label::after
+{
+	content:'x';
+	speak:never;
+	position: absolute;
+	top: .38em;
+	left: .18em;
+	font-size: 1.3em;
+	color: #7ed957;
+	line-height: 0;
+	transition: all .2s;
+}
+[type="checkbox"]:not(:checked) + label::after 
+{
+	opacity: 0;
+	transform: scale(0) rotate(45deg);
+}
+[type="checkbox"]:checked + label::after 
+{
+	opacity: 1;
+	transform: scale(1) rotate(0);
+}
+
+/* Page d'accueil du site */
+
+#fond
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:100%;
+  height:auto;
+  margin:0px;
+}
+
+#fond > div
+{
+  text-align: center;
+  justify-content: center;
+  margin:0.8em;
+  padding:0.5em;
+  background-color: #ffffff;
+  width:15em;
+  height:10em;
+}
+
+/* Page d'accès des visiteurs */
+
+.pageVisiteurs
+{
+    margin: 30px 40px 30px 40px;
+    text-align: justify;
+}
+
+.pageVisiteurs h1
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#7eda57;
+	font-size:2em;
+}
+
+#soustitre
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	font-size:1.2em;
+	color:black;
+}
+
+.pageVisiteurs h2
+{
+	margin-top:30px;
+}
+
+.pageVisiteurs h3
+{
+	margin: 30px;
+}
+
+.pageVisiteurs p
+{
+	color:#494949;
+}
+
+.sommaire
+{
+	display:flex;
+	justify-content:center;
+}
+
+.sommaire a
+{
+    display:flex;
+    color:black;
+    font-size:1em;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    width:300px;
+    border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+    margin:10px;
+}
+
+.sommaire a:hover
+{
+	background-color: black;
+	font-size:1.1em;
+    opacity: 0.4;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Température, .FréquenceCardiaque, .Audition, .RéflexesVisuels, .RéflexesSonores
+{
+    display:inline-flex;
+    margin:auto;
+    align-items:center;
+}
+#logoTempérature img, #logoFréquence img
+{
+	width: 100px;
+	height:100px;
+}
+#logoTempérature, #logoFréquence, #logoAudition, #logoOeil, #logoSon
+{
+	display:flex;
+	margin-left:50px;
+}
+#texteTempérature
+{
+	display:flex;
+	margin-left:40px;
+}
+#texteFréquence
+{
+	display:flex;
+	margin-left:55px;
+}
+#logoAudition img
+{
+	width: 170px;
+	height: 100px;
+}
+#texteAudition
+{
+	display:flex;
+	margin-left:53px;
+}
+.Réflexes p
+{
+	margin:30px;
+}
+#logoOeil img, #logoSon img
+{
+	width: 70px;
+	height: 70px;
+}
+#texteOeil, #texteSon
+{
+	display:flex;
+	margin-left:40px;
+}
+
+#commentsinscrire a, #questions a
+{
+	color:#7ed957;
+	text-decoration:none;
+}
+
+#pageInscription a
+{
+	display:flex;
+	color:black;
+	font-size:1em;
+	text-decoration:none;
+	justify-content: center;
+	border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+}
+
+#pageInscription a:hover
+{
+	background-color: black;
+    opacity: 0.3;
+    color: white;
+    font-size:1.1em;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* FAQ */
+
+.faq, .sinscrire, .commentseconnecter, .commentmodifierprofil, .commentrealisertest, .accesresultats, .boitiers
+{
+	margin: 30px 40px 30px 40px;
+    text-align: justify;
+}
+
+.sinscrire h2, .commentseconnecter h2, .commentmodifierprofil h2, .commentrealisertest h2, .accesresultats h2, .boitiers h2
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#7eda57;
+}
+
+.introFAQ a, #boitiers a
+{
+	color:#7ed957;
+	text-decoration:none;
+}
+
+.faq h1
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#7eda57;
+	font-size:2em;
+}
+
+.faq p, .sinscrire p, .commentseconnecter p, .commentmodifierprofil a, .commentrealisertest a, .accesresultats a, .boitiers a
+{
+	color:#494949;
+}
+
+#retourfaq a
+{
+	display:flex;
+	color:black;
+	font-size:1em;
+	text-decoration:none;
+	justify-content: center;
+	width:150px;
+	border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+}
+
+#retourfaq a:hover
+{
+	background-color: black;
+    opacity: 0.3;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.sommaire p 
+{
+	display:flex;
+	font-size:1.2em;
+	justify-content: center;
+}
+
+#commentrealisertest img
+{
+	max-height:400px;
+	width:auto;
+}
+#sinscrire img, #infosinscription img
+{
+	max-height:500px;
+	width:auto;
+	}
+#commentrealisertest, #sinscrire, #infosinscription
+{
+	display:flex;
+	justify-content:center;
+}
+
+/* Inscription pour le choix du métier */
+
+.choix_metier
+{
+    margin: 30px 40px 30px 40px;
+    text-align: justify;
+}
+
+.choix_metier h1
+{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#7eda57;
+    font-size:3em;
+}
+
+.choix_metier a
+{
+    display:flex;
+    color:black;
+    font-size:2em;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    width:250px;
+    border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 30px;
+    margin:auto;
+    margin-bottom:100px;
+}
+
+.choix_metier a:hover 
+{
+    background-color: black;
+    font-size:2.2em;
+    opacity: 0.4;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#iSportif, #iCoach, #iAdmin
+{
+    display:inline-flex;
+    padding:10px;
+    margin:auto;
+}
+
+#iSportif
+{
+	margin-left:150px;
+}
+
+#iAdmin
+{
+	margin-right:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1220px)
+
+{
+	/* Header */
+
+	.menu a
+	{
+    	font-size: 1.2em;
+    	padding: 12px 25px;
+    	width:130px;
+    }
+
+	#inscription, #connexion, #accueil
+	{
+    	display:inline-flex;
+    	padding:10px;
+    	margin-right: 5px;
+    	margin-bottom: 10px;
+	}
+
+	#pageaccueil, #faq, #inscription
+	{
+    	display:inline-flex;
+    	padding:10px;
+    	margin-right: 10px;
+    	margin-bottom: 10px;
+	}
+
+	#logo img
+	{
+    	width: 130px;
+    	height: 130px;
+	}
+
+	.infoCoach
+	{
+		margin-right:10px;
+		margin-top:5px;
+		justify-content:center;
+	}
+	#nomCoach
+	{
+		margin-right:20px;
+		padding:1px;
+		margin:1px;
+	}
+	#photoCoach
+	{
+		display:flex;
+		width:120px;
+		height:120px;
+	    justify-content: center;
+	}
+	#nom, #prénom
+	{
+		font-size:1.3em;
+	}
+	#coach
+	{
+		font-size: 0.9em;
+	}
+
+	/* Footer */
+
+	footer
+	{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.copyright
+	{
+		margin-top:10px;
+	}
+
+	.nous_recontrer
+	{
+		margin-bottom:10px;
+	}
+
+}
+
+	/* Accueil des visiteurs */
+
+	.sommaire a
+	{
+    	display:flex;
+    	flex-direction:column;
+    	width:auto;
+    	margin:1px;
+	}
+
+	.sommaire
+	{
+		display:flex;
+		flex-direction: column;
+		width:auto;
+	}
+
+	#logoTempérature img, #logoFréquence img, #logoAudition img
+	{
+		max-width: 80px;
+		height:auto;
+	}
+	#logoTempérature, #logoFréquence, #logoAudition, #logoOeil, #logoSon
+	{
+		display:flex;
+		margin:40px;
+		padding:auto;
+	}
+	#texteTempérature, #texteFréquence, #texteAudition, #texteOeil, #texteSon
+	{
+		display:flex;
+		margin:auto;
+		padding:auto;
+		width:auto;
+	}
+	#logoOeil img, #logoSon img
+	{
+		max-width:60px;
+		height:auto;
+	}
+}
+
+
+
+@media all and (max-width: 1050px)
+
+{
+	/* Header */
+
+	#logo img
+	{
+    	width: 120px;
+    	height: 120px;
+	}
+
+	header h1
+	{
+    	font-size: 2.3em;
+    }
+
+	header h2
+	{
+    	font-size: 1.1em;
+	}
+	
+	.menu a
+	{
+    	font-size: 1.1em;
+    	padding: 10px 20px;
+    	width:120px;
+    }
+
+	#inscription, #connexion, #accueil
+	{
+    	display:inline-flex;
+    	padding:10px;
+    	margin-right: 5px;
+    	margin-bottom: 10px;
+	}
+
+	#pageaccueil, #faq, #inscription
+	{
+    	display:inline-flex;
+    	padding:10px;
+    	margin-right: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.infoCoach
+	{
+		margin-right:10px;
+		margin-top:1px;
+		justify-content:center;
+	}
+	#photoCoach
+	{
+		display:flex;
+		width:110px;
+		height:110px;
+	    justify-content: center;
+	}
+	#nom, #prénom
+	{
+		font-size:1.2em;
+	}
+	#coach
+	{
+		font-size:0.8em;
+	}
+
+	.infoCoach
+	{
+		margin-right:10px;
+		margin-top:15px;
+		justify-content:center;
+	}
+
+}
+
+@media all and (max-width: 1000px)
+
+{
+	/* Header */
+
+	.menu a
+	{
+    	font-size: 1.1em;
+    	padding: 12px 25px;
+    	width:120px;
+    }
+
+	#inscription, #connexion, #accueil
+	{
+   		display:flex;
+    	flex-direction: column;
+    	padding:10px;
+    	margin-bottom:2px;
+    	margin-right:10px;
+	}
+
+	#pageaccueil, #faq, #inscription
+	{
+    	display:flex;
+    	flex-direction: column;
+    	padding:10px;
+    	margin-bottom:2px;
+    	margin-right:10px;
+	}
+
+	#logo img
+	{
+    	width: 120px;
+    	height: 120px;
+	}
+
+	#titre_principal
+	{
+		margin-bottom: 30px;
+	}
+
+	/* Menu Coach, page de choix des tests */
+
+	
+	.menuCoach
+	{
+		display:flex;
+		flex-direction: column;
+	}
+	#pageCoach, #statistiqueJoueur, #tests, #forum
+	{
+		display:inline-flex;
+    	flex-direction: column;
+    	width:100%;
+	}
+	.menuCoach a
+	{
+	    display:flex;
+	    color:black;
+	    background-color: #f3f4f3;
+	    font-size:1em;
+	    text-decoration: none;
+	    border: 1.5px solid black;
+	    border-radius:10px 10px 10px 10px;
+	    padding: 10px 20px;
+	    margin:1px;
+	    text-align:center;
+    	justify-content:center;
+	}
+	.menuCoach a:hover
+	{
+	    background-color: black;
+		font-size:1.1em;
+	    opacity: 0.4;
+	    color: white;
+	    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+}
+
+
+@media all and (max-width: 700px)
+
+{
+	/* Header */
+
+	.menu a
+	{
+    	font-size: 1em;
+    	padding:10px 15px;
+    }
+
+	#inscription, #connexion, #accueil
+	{
+   		display:flex;
+    	flex-direction: column;
+    	padding:10px;
+    	margin-bottom:2px;
+    	margin-right:10px;
+	}
+
+	#pageaccueil, #faq, #inscription
+	{
+    	display:flex;
+    	flex-direction: column;
+    	padding:10px;
+    	margin-bottom:2px;
+    	margin-right:10px;
+	}
+
+	#logo img
+	{
+    	width: 100px;
+    	height: 100px;
+	}
+
+	header h1
+	{
+    	font-size: 2em;
+    }
+
+	header h2
+	{
+    	font-size: 0.9em;
+	}
+
+	#titre_principal
+	{
+		margin-bottom: 30px;
+	}
+
+	#photoCoach
+	{
+		display:flex;
+		width:90px;
+		height:90px;
+	    justify-content: center;
+	}
+	#nom, #prénom
+	{
+		font-size:1em;
+	}
+	#coach
+	{
+		font-size:0.6em;
+	}
+
+	.infoCoach
+	{
+		margin-right:5px;
+		margin-top:5px;
+		justify-content:center;
+	}
+
+	footer
+	{
+		font-size:0.9em;
+	}
+
+	footer img, #localisation img, #contact img
+	{
+		width:40px;
+		height:40px;
+	}
+
+}
+
+
+
+

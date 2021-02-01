@@ -1,0 +1,130 @@
+.cat
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabcat
+{
+	width: 80%;
+	align-self: center;
+	border-radius: 10px;
+	border: 10px solid #7ed957;
+	border-spacing: 10px 20px;
+}
+
+.titretab
+{
+	font-size: 20px;
+	color: white;
+    background-color: #7ed957;
+    padding: 1%;
+
+}
+
+.texttab
+{
+	font-size: 20px;
+	background-color: #F3F4F3;
+	padding: 1%;
+}
+
+.texttab a
+{
+	display: block;
+}
+.texttab a:link, :visited 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.texttab a:hover
+{
+	color: #EDEDED;
+	background-color: #ABABAB;
+}
+
+.searchbar
+{
+	width: 90%;
+	align-self: center;
+	border-spacing: 0px 0px;
+}
+
+.titresujet
+{
+	font-size: 20px;
+	color: white;
+    background-color: #7ed957;
+
+}
+
+.textsujet
+{
+    background-color: white;
+
+}
+
+.liensujet a
+{
+	display: block;
+}
+
+.liensujet a:link, :visited 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.liensujet a:hover
+{
+	color: #EDEDED;
+	background-color: #ABABAB;
+}
+
+.tabcreate
+{
+	width: 40%;
+	align-self: center;
+	border-radius: 10px;
+	border: 5px solid #7ed957;
+}
+
+.tab
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #F3F4F3;
+}
+
+.rep
+{
+	border: 3px solid #7ed957;
+	width: 85%;
+}
+
+
+.rep2
+{
+	border: 3px solid #7ed957;
+	width: 75%;
+
+}
+
+#contenuMessage
+{
+	width: 95%;
+}
+
+.mess
+{
+	overflow-wrap: anywhere;
+}
+
+
+
+
+
+
+
