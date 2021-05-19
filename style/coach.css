@@ -1,0 +1,149 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fond de la page et écriture */
+
+html, body 
+{
+  height: 100%;
+}
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin:0px;
+    background-color: #f3f4f3;
+    display:flex;
+    flex-direction: column;
+}
+
+img
+{
+  max-width:100%;
+  max-height: 100%;
+}
+
+.conteneur
+{
+    flex: 1;
+    margin: 80px 40px 30px 40px;
+    text-align: justify;
+}
+
+.conteneur1
+{
+    flex: 1;
+    margin: 0px 40px 30px 40px;
+    text-align: justify;
+}
+
+
+
+/* Boutons */
+
+.attribut a, .bouton a
+{
+    display:flex;
+    color:black;
+    font-size:1em;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    width:300px;
+    border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+    margin:10px;
+}
+
+.attribut a:hover, .bouton a:hover
+{
+    background-color: black;
+    font-size:1.1em;
+    opacity: 0.4;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Edition de profil */
+
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    position : relative ;
+}
+
+fieldset
+{
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:  #7ed957;
+}
+
+legend
+{
+    font-weight: bold;
+}
+
+/* Placement et mise en page du contenu des formulaires */
+
+label
+{
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px;
+}
+
+/* Style du bouton d'envoie */
+
+.envoie input 
+{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:black;
+    font-size:1em;
+    width : 30% ;
+    border: 1.5px solid black;
+    border-radius:10px 10px 10px 10px;
+    padding: 10px 20px;
+    margin:auto;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.envoie input:hover
+{
+    background-color: black;
+    font-size:1.1em;
+    opacity: 0.4;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
